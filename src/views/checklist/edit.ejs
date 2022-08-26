@@ -1,0 +1,7 @@
+<%- include("../partials/header", {title: "Editar checklist"})%>
+<%- include("../partials/nav")%>
+
+<%- include("form", {title: "Editar checklist", url: `/checklist/${check._id}?_method=put`, check: check})%>
+
+
+<%- include("../partials/footer")%>
