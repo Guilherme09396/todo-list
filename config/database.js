@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 mongoose.Promise = global.Promise;
 
-mongoose.connect("mongodb+srv://guilherme09396:guilherme9812@cluster0.32zfjqo.mongodb.net/?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://guilherme09396:<>@cluster0.32zfjqo.mongodb.net/?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 }).then(() => {
